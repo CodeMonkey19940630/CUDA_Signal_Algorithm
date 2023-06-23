@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CUDAHeaderFile">
+      <UniqueIdentifier>{1ab1da99-9ff1-4b4c-aaa6-8c931afe7516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HeaderFileOfStruct">
+      <UniqueIdentifier>{cce169e8-a812-4487-b524-2295ea7b1c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HeaderFileOfHierarchy2DLL">
+      <UniqueIdentifier>{47edf6e4-1417-4ab1-8580-a55c8926ce59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\LibFileOfHierarchy2DLL">
+      <UniqueIdentifier>{45670b6a-76aa-48aa-8912-4211914ea2df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAHeaderFile\helper_cuda.h">
+      <Filter>CUDAHeaderFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAHeaderFile\helper_string.h">
+      <Filter>CUDAHeaderFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HeaderFileOfStruct\Struct.h">
+      <Filter>HeaderFileOfStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchFilterSegmentedConvolutionPlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchFilterSegmentedConvolutionModule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HeaderFileOfHierarchy2DLL\CUDAMatchFilterSegmentedConvolution.h">
+      <Filter>HeaderFileOfHierarchy2DLL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchFilterSegmentedConvolutionPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchFilterSegmentedConvolutionModule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\LibFileOfHierarchy2DLL\CUDAMatchFilterSegmentedConvolution.lib">
+      <Filter>资源文件\LibFileOfHierarchy2DLL</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+﻿生成启动时间为 2022/7/27 16:28:08。
+     1>项目“E:\Visual_studio_2013_workingspace\Third hierarchy DLL\BasebandReceiverAnalogDigitalConversion\BasebandReceiverAnalogDigitalConversion\BasebandReceiverAnalogDigitalConversion.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Visual_studio_2013\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D BASEBANDRECEIVERANALOGDIGITALCONVERSION_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\BasebandReceiverAnalogDigitalConversion.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Visual_studio_2013\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D BASEBANDRECEIVERANALOGDIGITALCONVERSION_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\BasebandReceiverAnalogDigitalConversion.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BasebandReceiverAnalogDigitalConversionModule.cpp BasebandReceiverAnalogDigitalConversionPlugin.cpp
+         BasebandReceiverAnalogDigitalConversionPlugin.cpp
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\device_functions.h(776): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\device_functions.h(1636): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\sm_20_intrinsics.h(925): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         BasebandReceiverAnalogDigitalConversionModule.cpp
+     1>e:\visual_studio_2013_workingspace\third hierarchy dll\basebandreceiveranalogdigitalconversion\basebandreceiveranalogdigitalconversion\basebandreceiveranalogdigitalconversionmodule.cpp(1): warning C4627: “#include "BasebandReceiverAnalogDigitalConversionModule.h"”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>e:\visual_studio_2013_workingspace\third hierarchy dll\basebandreceiveranalogdigitalconversion\basebandreceiveranalogdigitalconversion\basebandreceiveranalogdigitalconversionmodule.cpp(36): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         正在生成代码...
+     1>已完成生成项目“E:\Visual_studio_2013_workingspace\Third hierarchy DLL\BasebandReceiverAnalogDigitalConversion\BasebandReceiverAnalogDigitalConversion\BasebandReceiverAnalogDigitalConversion.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.61
