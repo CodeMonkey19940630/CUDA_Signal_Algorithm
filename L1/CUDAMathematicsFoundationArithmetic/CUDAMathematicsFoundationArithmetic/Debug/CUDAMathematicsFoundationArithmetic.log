@@ -1,0 +1,18 @@
+﻿生成启动时间为 2022/6/21 9:52:43。
+     1>项目“E:\Visual_studio_2013_workingspace\CUDAMathematicsFoundationArithmetic\CUDAMathematicsFoundationArithmetic\CUDAMathematicsFoundationArithmetic.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\Visual_studio_2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Visual_studio_2013_workingspace\CUDAMathematicsFoundationArithmetic\Debug\CUDAMathematicsFoundationArithmetic.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Visual_studio_2013_workingspace\CUDAMathematicsFoundationArithmetic\Debug\CUDAMathematicsFoundationArithmetic.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Visual_studio_2013_workingspace\CUDAMathematicsFoundationArithmetic\Debug\CUDAMathematicsFoundationArithmetic.lib" /MACHINE:X86 /DLL Debug\CUDAMathematicsFoundationArithmeticCore.cu.obj
+         Debug\dllmain.obj
+         Debug\stdafx.obj
+            正在创建库 E:\Visual_studio_2013_workingspace\CUDAMathematicsFoundationArithmetic\Debug\CUDAMathematicsFoundationArithmetic.lib 和对象 E:\Visual_studio_2013_workingspace\CUDAMathematicsFoundationArithmetic\Debug\CUDAMathematicsFoundationArithmetic.exp
+     1>CUDAMathematicsFoundationArithmeticCore.cu.obj : error LNK2019: 无法解析的外部符号 _cudaLaunchKernel@40，该符号在函数 "enum cudaError __cdecl cudaLaunchKernel<char>(char const *,struct dim3,struct dim3,void * *,unsigned int,struct CUstream_st *)" (??$cudaLaunchKernel@D@@YA?AW4cudaError@@PBDUdim3@@1PAPAXIPAUCUstream_st@@@Z) 中被引用
+     1>CUDAMathematicsFoundationArithmeticCore.cu.obj : error LNK2019: 无法解析的外部符号 ___cudaPopCallConfiguration@16，该符号在函数 "void __cdecl __device_stub__Z20ComplexArrayAdditionP6float2S0_i(struct float2 *,struct float2 *,int)" (?__device_stub__Z20ComplexArrayAdditionP6float2S0_i@@YAXPAUfloat2@@0H@Z) 中被引用
+     1>CUDAMathematicsFoundationArithmeticCore.cu.obj : error LNK2019: 无法解析的外部符号 ___cudaRegisterFatBinary@4，该符号在函数 "void __cdecl __nv_cudaEntityRegisterCallback(void * *)" (?__nv_cudaEntityRegisterCallback@@YAXPAPAX@Z) 中被引用
+     1>CUDAMathematicsFoundationArithmeticCore.cu.obj : error LNK2019: 无法解析的外部符号 ___cudaUnregisterFatBinary@4，该符号在函数 "void __cdecl __cudaUnregisterBinaryUtil(void)" (?__cudaUnregisterBinaryUtil@@YAXXZ) 中被引用
+     1>CUDAMathematicsFoundationArithmeticCore.cu.obj : error LNK2019: 无法解析的外部符号 ___cudaRegisterFunction@40，该符号在函数 "void __cdecl __nv_cudaEntityRegisterCallback(void * *)" (?__nv_cudaEntityRegisterCallback@@YAXPAPAX@Z) 中被引用
+     1>E:\Visual_studio_2013_workingspace\CUDAMathematicsFoundationArithmetic\Debug\CUDAMathematicsFoundationArithmetic.dll : fatal error LNK1120: 5 个无法解析的外部命令
+     1>已完成生成项目“E:\Visual_studio_2013_workingspace\CUDAMathematicsFoundationArithmetic\CUDAMathematicsFoundationArithmetic\CUDAMathematicsFoundationArithmetic.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.20
