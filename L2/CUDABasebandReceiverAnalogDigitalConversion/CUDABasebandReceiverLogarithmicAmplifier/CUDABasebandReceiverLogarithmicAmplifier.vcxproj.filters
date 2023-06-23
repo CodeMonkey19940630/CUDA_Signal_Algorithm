@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CUDABasebandReceiverLogarithmicAmplifierAlgorithm">
+      <UniqueIdentifier>{d4faaabc-0163-46a5-b432-f3686429e277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDABasebandReceiverLogarithmicAmplifierAlgorithm\CUDABasebandReceiverLogarithmicAmplifierAlgorithmHeaderFile">
+      <UniqueIdentifier>{d3c2d8a9-86e7-4f36-95e0-c8fd4fc105ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDABasebandReceiverLogarithmicAmplifierAlgorithm\CUDABasebandReceiverLogarithmicAmplifierAlgorithmSourceFile">
+      <UniqueIdentifier>{d82a839b-1d72-450e-8fa0-8520056e2481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDAHeaderFile">
+      <UniqueIdentifier>{6e417a68-351a-4eea-84b6-3773d541a402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDAHeaderFileOfHierarchy1DLL">
+      <UniqueIdentifier>{1c39d7cf-7d4f-4ac0-a193-0a118aca1e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\CUDALibFileOfHierarchy1DLL">
+      <UniqueIdentifier>{31e92bba-bafb-4370-863c-75833658f5bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CUDABasebandReceiverLogarithmicAmplifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAHeaderFile\helper_cuda.h">
+      <Filter>CUDAHeaderFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAHeaderFile\helper_string.h">
+      <Filter>CUDAHeaderFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDABasebandReceiverLogarithmicAmplifierAlgorithm\CUDABasebandReceiverLogarithmicAmplifierAlgorithmCore.cuh">
+      <Filter>CUDABasebandReceiverLogarithmicAmplifierAlgorithm\CUDABasebandReceiverLogarithmicAmplifierAlgorithmHeaderFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAHeaderFileOfHierarchy1DLL\CUDAMathematicsFoundationArithmeticCore.cuh">
+      <Filter>CUDAHeaderFileOfHierarchy1DLL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CUDABasebandReceiverLogarithmicAmplifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\CUDALibFileOfHierarchy1DLL\CUDAMathematicsFoundationArithmetic.lib">
+      <Filter>资源文件\CUDALibFileOfHierarchy1DLL</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="..\CUDABasebandReceiverLogarithmicAmplifierAlgorithm\CUDABasebandReceiverLogarithmicAmplifierAlgorithm.cu">
+      <Filter>CUDABasebandReceiverLogarithmicAmplifierAlgorithm\CUDABasebandReceiverLogarithmicAmplifierAlgorithmSourceFile</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>

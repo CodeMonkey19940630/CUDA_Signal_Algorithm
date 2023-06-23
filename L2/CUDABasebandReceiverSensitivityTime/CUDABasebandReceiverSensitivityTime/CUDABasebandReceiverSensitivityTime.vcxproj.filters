@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CUDAHeaderFile">
+      <UniqueIdentifier>{e3094777-53d1-43f4-8f6e-bc212e1f9535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDAHeaderFileOfHierarchy1DLL">
+      <UniqueIdentifier>{057a3433-682b-4f23-a4ad-7965969c1310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\CUDALibFileOfHierarchy1DLL">
+      <UniqueIdentifier>{122580da-0f68-4bfa-b549-cee2e34047cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDABasebandReceiverSensitivityTimeAlgorithm">
+      <UniqueIdentifier>{f3aff6ae-f8ac-4eef-9743-10179645b438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDABasebandReceiverSensitivityTimeAlgorithm\CUDABasebandReceiverSensitivityTimeAlgorithmHeaderFile">
+      <UniqueIdentifier>{9fdcaa12-933e-44e9-9f42-c3d2196f4509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDABasebandReceiverSensitivityTimeAlgorithm\CUDABasebandReceiverSensitivityTimeAlgorithmSourceFile">
+      <UniqueIdentifier>{b50a44a9-b468-4380-b8c2-faf48a232159}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAHeaderFile\helper_cuda.h">
+      <Filter>CUDAHeaderFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAHeaderFile\helper_string.h">
+      <Filter>CUDAHeaderFile</Filter>
+    </ClInclude>
+    <ClInclude Include="CUDABasebandReceiverSensitivityTime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDABasebandReceiverSensitivityTimeAlgorithm\CUDABasebandReceiverSensitivityTimeAlgorithmCore.cuh">
+      <Filter>CUDABasebandReceiverSensitivityTimeAlgorithm\CUDABasebandReceiverSensitivityTimeAlgorithmHeaderFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAHeaderFileOfHierarchy1DLL\CUDAMathematicsFoundationArithmeticCore.cuh">
+      <Filter>CUDAHeaderFileOfHierarchy1DLL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CUDABasebandReceiverSensitivityTime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\CUDALibFileOfHierarchy1DLL\CUDAMathematicsFoundationArithmetic.lib">
+      <Filter>资源文件\CUDALibFileOfHierarchy1DLL</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="..\CUDABasebandReceiverSensitivityTimeAlgorithm\CUDABasebandReceiverSensitivityTimeAlgorithmCore.cu">
+      <Filter>CUDABasebandReceiverSensitivityTimeAlgorithm\CUDABasebandReceiverSensitivityTimeAlgorithmSourceFile</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>

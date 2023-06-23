@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CUDAHeaderFile">
+      <UniqueIdentifier>{897d5500-d916-43c5-a0fc-bada608de255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDAMovingTargetIndicatorAlgorithm">
+      <UniqueIdentifier>{c7587813-2510-49d6-b578-43490baffe9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDAMovingTargetIndicatorAlgorithm\CUDAMovingTargetIndicatorAlgorithmHeaderFile">
+      <UniqueIdentifier>{c02dc4b9-56b3-4b71-a870-2ec4f5b0686e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDAMovingTargetIndicatorAlgorithm\CUDAMovingTargetIndicatorAlgorithmSourceFile">
+      <UniqueIdentifier>{39780946-f409-40fb-91eb-9effda0f228c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDAHeaderFileOfHierarchy1DLL">
+      <UniqueIdentifier>{025f1519-d0d2-461e-886c-cc60e32bf962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\CUDALibFileOfHierarchy1DLL">
+      <UniqueIdentifier>{a46140b9-6a51-4e1c-a7d7-ab26d5b13044}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CUDAMovingTargetIndicator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAHeaderFile\helper_cuda.h">
+      <Filter>CUDAHeaderFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAHeaderFile\helper_string.h">
+      <Filter>CUDAHeaderFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAHeaderFileOfHierarchy1DLL\CUDAMathematicsFoundationArithmeticCore.cuh">
+      <Filter>CUDAHeaderFileOfHierarchy1DLL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAMovingTargetIndicatorAlgorithm\CUDAMovingTargetIndicatorAlgorithmCore.cuh">
+      <Filter>CUDAMovingTargetIndicatorAlgorithm\CUDAMovingTargetIndicatorAlgorithmHeaderFile</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CUDAMovingTargetIndicator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="..\CUDAMovingTargetIndicatorAlgorithm\CUDAMovingTargetIndicatorAlgorithmCore.cu">
+      <Filter>CUDAMovingTargetIndicatorAlgorithm\CUDAMovingTargetIndicatorAlgorithmSourceFile</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\CUDALibFileOfHierarchy1DLL\CUDAMathematicsFoundationArithmetic.lib">
+      <Filter>资源文件\CUDALibFileOfHierarchy1DLL</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

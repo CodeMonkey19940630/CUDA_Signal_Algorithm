@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CUDAHeaderFileOfHierarchy1DLL">
+      <UniqueIdentifier>{b14314dc-34a4-4178-b436-05ed3288d3b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDAHeaderFile">
+      <UniqueIdentifier>{22c230a2-92fc-4409-80b6-b92af7935d95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDAMatchFilterSegmentedConvolutionAlgorithm">
+      <UniqueIdentifier>{776ab518-22d7-4cc2-8395-523a9d00cb7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDAMatchFilterSegmentedConvolutionAlgorithm\CUDAMatchFilterSegmentedConvolutionAlgorithmHeaderFile">
+      <UniqueIdentifier>{46bed2fe-a4ca-4eb6-90e0-d5e7ad28d79e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDAMatchFilterSegmentedConvolutionAlgorithm\CUDAMatchFilterSegmentedConvolutionAlgorithmSourceFile">
+      <UniqueIdentifier>{3818dd9f-21df-4431-a2f2-a2e1dc2671b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\CUDALibFileOfHierarchy1DLL">
+      <UniqueIdentifier>{fd3a1e71-793a-45c9-a21f-229380a3fdb4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CUDAMatchFilterSegmentedConvolution.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAHeaderFile\helper_cuda.h">
+      <Filter>CUDAHeaderFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAHeaderFile\helper_string.h">
+      <Filter>CUDAHeaderFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAHeaderFileOfHierarchy1DLL\CUDAMathematicsFoundationArithmeticCore.cuh">
+      <Filter>CUDAHeaderFileOfHierarchy1DLL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAMatchFilterSegmentedConvolutionAlgorithm\CUDAMatchFilterSegmentedConvolutionAlgorithmCore.cuh">
+      <Filter>CUDAMatchFilterSegmentedConvolutionAlgorithm\CUDAMatchFilterSegmentedConvolutionAlgorithmHeaderFile</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CUDAMatchFilterSegmentedConvolution.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="..\CUDAMatchFilterSegmentedConvolutionAlgorithm\CUDAMatchFilterSegmentedConvolutionAlgorithmCore.cu">
+      <Filter>CUDAMatchFilterSegmentedConvolutionAlgorithm\CUDAMatchFilterSegmentedConvolutionAlgorithmSourceFile</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\CUDALibFileOfHierarchy1DLL\CUDAMathematicsFoundationArithmetic.lib">
+      <Filter>资源文件\CUDALibFileOfHierarchy1DLL</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

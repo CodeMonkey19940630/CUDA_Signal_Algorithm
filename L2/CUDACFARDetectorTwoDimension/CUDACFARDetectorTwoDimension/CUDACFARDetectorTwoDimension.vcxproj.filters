@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CUDAHeaderFileOfHierarchy1DLL">
+      <UniqueIdentifier>{d39ee35d-bab9-493f-b898-15c9e65bc56a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDAHeaderFile">
+      <UniqueIdentifier>{8e8cf654-fa31-43cb-951c-71a0b0ffe2e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDACFARDetectorTwoDimensionAlgorithm">
+      <UniqueIdentifier>{9d3e78b8-98be-4d58-bcc4-dd378f91223c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDACFARDetectorTwoDimensionAlgorithm\CUDACFARDetectorTwoDimensionAlgorithmHeaderFile">
+      <UniqueIdentifier>{e6e0bad9-9a6b-47be-81ab-1b9456224e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDACFARDetectorTwoDimensionAlgorithm\CUDACFARDetectorTwoDimensionAlgorithmSourceFile">
+      <UniqueIdentifier>{879735ab-a5fe-435b-93dc-feecca337d35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\CUDALibFileOfHierarchy1DLL">
+      <UniqueIdentifier>{1b3c6b5a-6815-43a4-99cc-5e001c042a5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CUDACFARDetectorTwoDimension.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAHeaderFile\helper_cuda.h">
+      <Filter>CUDAHeaderFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAHeaderFile\helper_string.h">
+      <Filter>CUDAHeaderFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDACFARDetectorTwoDimensionAlgorithm\CUDACFARDetectorTwoDimensionAlgorithmCore.cuh">
+      <Filter>CUDACFARDetectorTwoDimensionAlgorithm\CUDACFARDetectorTwoDimensionAlgorithmHeaderFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAHeaderFileOfHierarchy1DLL\CUDAMathematicsFoundationArithmeticCore.cuh">
+      <Filter>CUDAHeaderFileOfHierarchy1DLL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CUDACFARDetectorTwoDimension.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="..\CUDACFARDetectorTwoDimensionAlgorithm\CUDACFARDetectorTwoDimensionAlgorithmCore.cu">
+      <Filter>CUDACFARDetectorTwoDimensionAlgorithm\CUDACFARDetectorTwoDimensionAlgorithmSourceFile</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\CUDALibFileOfHierarchy1DLL\CUDAMathematicsFoundationArithmetic.lib">
+      <Filter>资源文件\CUDALibFileOfHierarchy1DLL</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

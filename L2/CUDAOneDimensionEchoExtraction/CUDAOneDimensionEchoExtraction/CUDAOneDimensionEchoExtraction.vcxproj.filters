@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\CUDALibFileOfHierarchy1DLL">
+      <UniqueIdentifier>{2f75b996-16a0-4c71-af38-2d2e801aeed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDAHeaderFile">
+      <UniqueIdentifier>{209d14ff-56c3-4a8b-b552-674730fdcd40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDAHeaderFileOfHierarchy1DLL">
+      <UniqueIdentifier>{3f126ca6-ed55-40b6-9d7b-08f342bb3ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDAOneDimensionEchoExtractionAlgorithm">
+      <UniqueIdentifier>{30127d64-a893-4600-80a5-80ccea2efc07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDAOneDimensionEchoExtractionAlgorithm\CUDAOneDimensionEchoExtractionHeaderFile">
+      <UniqueIdentifier>{be610181-b177-403a-9090-02c0aaab933c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDAOneDimensionEchoExtractionAlgorithm\CUDAOneDimensionEchoExtractionSourceFile">
+      <UniqueIdentifier>{2f4ff32d-f961-4322-aeb7-3de13e44bfcc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CUDAOneDimensionEchoExtraction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAHeaderFile\helper_cuda.h">
+      <Filter>CUDAHeaderFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAHeaderFile\helper_string.h">
+      <Filter>CUDAHeaderFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAHeaderFileOfHierarchy1DLL\CUDAMathematicsFoundationArithmeticCore.cuh">
+      <Filter>CUDAHeaderFileOfHierarchy1DLL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAOneDimensionEchoExtractionAlgorithm\CUDAOneDimensionEchoExtractionAlgorithmCore.cuh">
+      <Filter>CUDAOneDimensionEchoExtractionAlgorithm\CUDAOneDimensionEchoExtractionHeaderFile</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CUDAOneDimensionEchoExtraction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\CUDALibFileOfHierarchy1DLL\CUDAMathematicsFoundationArithmetic.lib">
+      <Filter>资源文件\CUDALibFileOfHierarchy1DLL</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="..\CUDAOneDimensionEchoExtractionAlgorithm\CUDAOneDimensionEchoExtractionAlgorithmCore.cu">
+      <Filter>CUDAOneDimensionEchoExtractionAlgorithm\CUDAOneDimensionEchoExtractionSourceFile</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>

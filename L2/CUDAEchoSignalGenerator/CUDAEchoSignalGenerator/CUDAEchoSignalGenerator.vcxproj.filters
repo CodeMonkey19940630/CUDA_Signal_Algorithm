@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CUDAHeaderFileOfHierarchy1DLL">
+      <UniqueIdentifier>{bf131531-10e8-4bdf-ac93-d08ff368df9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDAHeaderFile">
+      <UniqueIdentifier>{b4be40a7-0c54-49b4-87d7-372f09830b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDAEchoSignalGeneratorAlgorithm">
+      <UniqueIdentifier>{5f574dba-b021-483e-af46-4ad6598e94c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDAEchoSignalGeneratorAlgorithm\CUDAEchoSignalGeneratorAlgorithmHeaderFile">
+      <UniqueIdentifier>{a364c892-fd29-4624-a6b8-f44dca0e6a06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDAEchoSignalGeneratorAlgorithm\CUDAEchoSignalGeneratorAlgorithmSourceFile">
+      <UniqueIdentifier>{e93187a7-6d9a-4af8-b762-75eb63d07dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\CUDALibFileOfHierarchy1DLL">
+      <UniqueIdentifier>{539d6377-0f2f-4fba-8683-e1151901b461}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CUDAEchoSignalGenerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAHeaderFile\helper_cuda.h">
+      <Filter>CUDAHeaderFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAHeaderFile\helper_string.h">
+      <Filter>CUDAHeaderFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAEchoSignalGeneratorAlgorithm\CUDAEchoSignalGeneratorAlgorithmCore.cuh">
+      <Filter>CUDAEchoSignalGeneratorAlgorithm\CUDAEchoSignalGeneratorAlgorithmHeaderFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CUDAHeaderFileOfHierarchy1DLL\CUDAMathematicsFoundationArithmeticCore.cuh">
+      <Filter>CUDAHeaderFileOfHierarchy1DLL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CUDAEchoSignalGenerator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="..\CUDAEchoSignalGeneratorAlgorithm\CUDAEchoSignalGeneratorAlgorithmCore.cu">
+      <Filter>CUDAEchoSignalGeneratorAlgorithm\CUDAEchoSignalGeneratorAlgorithmSourceFile</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\CUDALibFileOfHierarchy1DLL\CUDAMathematicsFoundationArithmetic.lib">
+      <Filter>资源文件\CUDALibFileOfHierarchy1DLL</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
